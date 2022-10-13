@@ -3,5 +3,13 @@
   "version": "0.1.0",
   "engines": {
     "node": ">=16.x"
+  },
+  "main": "./index.js",
+  "bin": {
+    "mdl": "./index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^3.2.10"
   }
 }
